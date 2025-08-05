@@ -1,0 +1,43 @@
+@media screen and (max-width:1060px) {
+    .about-us-section
+    {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 900px) {
+    .header-right-div__cart-span,.cookies_warning-wrapper
+    {
+        display: none;
+    }
+    .product-with-quote-section
+    {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .products-section__list
+    {
+        flex-direction: column;
+    }
+    .about-us-section
+    {
+        flex-direction: column;
+        padding: 25px;
+    }
+    .footer
+    {
+        flex-direction: column;
+        height: auto;
+    }
+    .footer-left-section__form
+    {
+        flex-direction: column;
+    }
+    .footer-square
+    {
+        display: none;
+    }
+    .footer-left-section__submit-btn
+    {
+        margin-left: -10px;
+    }
+}

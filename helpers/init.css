@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+} 
+ul
+{
+    list-style-type: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+:root {
+    --booger-buster-color: #E7F066;
+    --phillipine-silver-color: #B2B2B2;
+    --dark-liver-color: #504B4D;
+    --dark-tan-color: #9C8554;
+    --rose-dust-color: #A26779;
+    --black-color: #1B1B1B;
+    --isabelline-color: #F1F1EE;
+    --raisin-black: #262626;
+    --medium-carmine: #B04836;
+    --chinese-silver: #CCCCCC;
+    --standart-font-weight: 400;
+}
+a {
+    color: var(--black-color);
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover::after
+{
+    background: #B2B2B2;
+}
+a:hover
+{
+    background: #B2B2B2;
+    color: var(--raisin-black);
+}
