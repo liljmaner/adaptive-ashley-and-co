@@ -27,6 +27,7 @@
     {
         flex-direction: column;
         height: auto;
+        bottom: -207px;
     }
     .footer-left-section__form
     {
